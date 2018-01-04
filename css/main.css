@@ -1,0 +1,363 @@
+/* General */
+@font-face
+{
+    font-family: "kg";
+    src: url('../fonts/kg-second-chances.ketch.ttf');
+}
+body
+{    
+    background-color: #aaaaaa;
+    width: 100%;
+}
+p{    margin: 0;}
+h2{    font-size: 39px;}
+#formContact h3
+{
+    font-size: 31px;
+    margin-top: 0;
+}
+h4
+{ 
+    font-size: 27px;
+    padding-top: 25px;
+}
+h5
+{
+    font-size: 22px;
+    padding-top: 25px;
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+.encadre{    border: solid 1px black;}
+.policeSpecial
+{
+    font-family: "kg";
+    color: white;
+    text-decoration: none;
+}
+.policeSpecial2
+{
+    /*font-family: "kg";*/
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.padding15
+{
+    padding-top:15px;
+}
+/* Fin General*/
+/* -------------------------------------------------------------------------- */
+/* Loader */
+.loaderOff{    display: none;}
+.loader
+{
+    position: fixed;
+    z-index: 9999;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    background-image: url("../images/3D.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Fin Loader*/
+/* -------------------------------------------------------------------------- */
+/* Elements du menu */
+#menu
+{
+    height: 60px;
+    background-color: #aaaaaa;
+    padding-bottom: 5px;
+    font-size: 82%;
+}
+#menu ul a li
+{
+    font-size: 21px;
+    color : white;
+}
+#menu ul a:hover{    text-decoration: none;}
+#menu div.row ul a li.col-lg-2
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.ligne
+{
+    height: 50px;
+    padding-top: 10px;
+}
+#menu ul li:hover{    background-color: #bbbbbb;}
+#liPresentation:hover{   border-radius: 0 0 0 15px;}
+#liContact:hover{    border-radius: 0 0 15px 0;}
+.list-inline {    margin-left: 0;}
+#btMenu
+{
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 3em;
+    color: white;
+}
+#menu ul li .liBtMenu{    padding: 0;}
+#menu ul #liMenu
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+#menu ul #liMenu:hover
+{
+    background-color: #aaaaaa;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 15px;
+}
+#menu ul li ul{    display: none;}
+#menu ul li:hover ul{    display: block;}
+#menu ul li ul li
+{
+    text-align: left;
+    padding: 10px;
+    padding: 10px;
+}
+/* Fin des élements du menu */    
+/* -------------------------------------------------------------------------- */
+/* Elements des sections */
+section
+{
+    padding-bottom: 50px;
+}
+#contenu
+{
+    border-radius: 15px;
+    margin-top: 75px;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: #bbbbbb;
+}
+#presentation, #accueil, #cv, #stage, #realisation, #veille /* Toutes les sections sauf #contact */
+{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+}
+#accueil, #cv, #stage, #realisation, #veille, #contact /* Toutes les sections sauf #presentation en raison du transform: translateY(-50%) */
+{
+    padding-top:70px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#presentation /* #presentation en raison du transform: translateY(-50%) */
+{
+    padding-top:140px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Fin des élements de sections */
+/* -------------------------------------------------------------------------- */
+/* Elements de presentation */
+#mon_nom
+{
+    font-size: 7em;
+    padding-top: 50px;
+}
+.vertical-align{    transform: translateY(-50%);}
+.article{    padding-top: 30px;}
+/* Fin des élements de presentation */
+/* -------------------------------------------------------------------------- */
+/* Elements de Cv */
+#pdf{   width: 50px;}
+#jpg
+{   
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img_competences
+{
+    max-height: 100px;
+    width: auto;
+    padding-top: 10px;
+}
+section#cv div.row h4.col-lg-3
+{
+    padding-right: 0;
+    padding-left: 10px;
+}
+.competences
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+}
+.competenceCvOn
+{
+    max-height: 120px;
+    width: auto;
+    top: 50px;
+    left: 55%;
+    margin: -50%;
+    opacity: 1;
+    -webkit-transition: opacity 0.8s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: opacity 0.8s;
+    transition-timing-function: linear;
+    position: absolute;
+}
+.competenceCvOff
+{
+    max-height: 120px;
+    width: auto;
+    top: 50px;
+    left: 55%;
+    margin: -50%;
+    opacity: 0;
+    -webkit-transition: opacity 0.8s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: opacity 0.8s;
+    transition-timing-function: linear;
+    position: absolute;
+}
+/* Fin des élements de Cv */
+/* -------------------------------------------------------------------------- */
+/* Elements de Stage */
+#logo
+{
+    width: 75%;
+    margin: auto;
+}
+img.logoSpan
+{
+    width: 200px;
+}
+/* Fin des élements de Stage */
+/* -------------------------------------------------------------------------- */
+/* Elements de Veille Technologique */
+.tooltip.top .tooltip-inner ,.tooltip.bottom .tooltip-inner 
+{
+    background-color:#aaaaaa;
+  }
+.tooltip.top .tooltip-arrow
+{
+    border-top-color: #aaaaaa;
+}
+.tooltip.bottom .tooltip-arrow 
+{
+    border-bottom-color: #aaaaaa;
+}
+.tooltip
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+a, a:hover, a:visited
+/*a.aVeille, a.aVeille:hover, a.aVeille:visited*/
+{
+    color: #e6e6e6;
+    text-decoration: none;
+}
+button#btVeille1, button#btVeille2, button#btVeille3, button#btVeille4, button#btVeille1:hover, button#btVeille2:hover, button#btVeille3:hover, button#btVeille4:hover
+{
+    border: 0 ;
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    outline: none;
+    margin: 3px;
+    cursor:pointer;
+}
+/* Fin des élements de Veille Technologique */
+/* -------------------------------------------------------------------------- */
+/* Elements de Contact */
+#contactContent
+{
+    position: relative;
+    margin-top: 50px;
+}
+#map
+{
+    z-index: 1;
+    width: 98%;
+    height: 565px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+}
+#formContact
+{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    border-radius: 20px;
+    top: 80px;
+    left: 5%;
+    padding: 15px;
+    width: 40%;
+    min-width: 350px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    background-color: rgba(190,190,190, 0.85);
+}
+textarea.form-control
+{
+    resize: vertical;
+    height: 150px;
+}
+#carte
+{
+    position: absolute;
+    z-index: 10;
+    top: -35px;
+    right: 2%;
+}
+#carteVisite
+{
+    width: 400px;
+    height: 100%;
+    min-width: 200px;
+}
+/* Fin des élements de Contact */
+/* -------------------------------------------------------------------------- */
+/* Elements de réalisations */
+#imgCalculatrice
+{
+    width: 260px;
+    height: auto;
+}
+#imgSite
+{
+    width: 350px;
+    height: auto;
+}
+#plentycoups, #sitePortfolio
+{
+    border-bottom: 1px solid white;
+}
+/* Fin des élements de réalisations */
+/* -------------------------------------------------------------------------- */
+/* Elements de reponse mail */
+#mailRetour
+{
+    background-color: #bbbbbb;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+}
+.messageReponse
+{
+    color: white;
+    font-size: 20px;
+}
+/* Fin des élements de reponse mail */
+/* -------------------------------------------------------------------------- */
