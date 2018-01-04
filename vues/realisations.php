@@ -11,6 +11,7 @@
             <p>Il est fonctionnel que javascript soit activé ou non. Seul change le confort de navigation.</p>
             <br>
             <br>
+            <a href="https://github.com/FRGarciaY/Portfolio" target="_blank"><span><img id="jpg" src="images/github.gif" alt=""/></span>Code source</a>
             <p>Vous pouvez acceder au code source directement. (Ctrl U)</p>
         </div>
         <div class="col-xs-12 col-sm-6 padding15">
@@ -79,7 +80,8 @@
             <br>
             <p>J'ai choisi de dévelloper cette application Web en PHP avec le framwork Symfony, ainsi qu'une base de données MySql<br>
             <br>
-            <a href="https://github.com/FRGarciaY/GSB_WEB" target="_blank">Code source sur GitHub</a>
+            <a href="https://github.com/FRGarciaY/GSB_WEB" target="_blank"><span><img id="jpg" src="images/github.gif" alt=""/></span>Code source</a>
+            
         </div>
         <div class="col-xs-12 col-sm-6 padding15">
             <div class="padding15 policeSpecial2">
@@ -98,7 +100,7 @@
             <br>
             <p>J'ai choisi de dévelloper ma version Desktop de GSB dans le langage C# en Windows Forms avec le framwork .net et linq</p>
             <br>
-            <a href="https://github.com/FRGarciaY/GSB_DESKTOP" target="_blank">Code Source sur GitHub</a>
+            <a href="https://github.com/FRGarciaY/GSB_DESKTOP" target="_blank"><span><img id="jpg" src="images/github.gif" alt=""/></span>Code source</a>
             <br>
         </div>
         <div class="col-xs-12 col-sm-6 padding15">
