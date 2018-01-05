@@ -6,7 +6,7 @@
     <br>
     <h1 class="policeSpecial text-center">Présentation de l'entreprise</h1>
     <br>
-    <p>APSAROKE est une SSII (société de services en ingénierie informatique) fondée en 2001 par Bernard PEYRIN, qui est l’actuel dirigeant.</p>
+    <p>APSAROKE est une SSII (Société de Services en Ingénierie Informatique) fondée en 2001 par Bernard PEYRIN, qui est l’actuel dirigeant.</p>
     <p>Monsieur PEYRIN, a choisi le nom de sa société en faisant le rapprochement entre deux idées : </p>
     <br>
     <ul>
@@ -33,8 +33,8 @@
     <p>Un CRM de l’anglais Customer Relationship Management est un outil de gestion de la relation avec les clients.</p>
     <p>Suivant la logique de l'entreprise, ce CRM porte nom le nom d'un chef amérindien de la tribu des Crows :</p>
     <h2 class="policeSpecial text-center">PlentyCoups</h2>
-    <p>N’ayant pas été formé sur le langage JAVA EE utilisé par les stagiaires précèdent, nous nous sommes formés, puis nous avons commencé à corriger l’application.</p>
-    <p>Durant deux semaines, nous avons rencontré beaucoup de difficultés à comprendre ce qui avait été fait en raison d’un manque de cohérence de développement entre les stagiaires précèdents, un manque de documentation du code et des erreurs de conceptions.</p>
+    <p>N’ayant pas été formé sur le langage JAVA EE utilisé par les stagiaires précèdents, nous nous sommes formés, puis nous avons commencé à corriger l’application.</p>
+    <p>Durant deux semaines, nous avons rencontré beaucoup de difficultés à comprendre ce qui avait été fait en raison d’un manque de cohérence de développement entre les stagiaires précèdents, un manque de documentation du code et des erreurs de conception.</p>
     <p>Après consultation d’un développeur en inter mission, nous en avons conclu qu’il serait plus productif de repartir à zéro.</p>
     <p>Avec le responsable AP’H nous avons donc redéfini un nouveau cahier des charges et nous avons opté pour l’utilisation d’un langage de programmation plus adapté, que nous ne connaissions pas non plus, le Framework SYMFONY.</p>
     <p>Nous avons commencé par nous former sur ce Framework, ensuite nous avons entrepris la conception, d’après les informations du cahier des charges, et enfin nous avons développé le nouveau CRM, module par module, afin de pouvoir tester notre travail et mettre en production les modules fonctionnels.</p>
@@ -60,5 +60,5 @@
         </li>
     </ul>
     <br>
-    <p>Au terme de notre stage, nous avons livré une application testée, et répondant au cahier des charges ainsi qu’une documentation.</p> 
+    <p>Au terme de notre stage, nous avons livré une application testée, et répondant au cahier des charges ainsi qu’une documentation. Celle-ci permettant la reprise, la réinstallations de l'application ainsi que la base de données et la réstauration de la base de données à partir des sauvegardes journalières</p> 
 </section><!-- Fin #stage -->
