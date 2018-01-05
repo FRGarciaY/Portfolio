@@ -1,4 +1,5 @@
 <section id="presentation" class="text-justify policeSpecial2"><!-- #presentation -->
+    <br>
     <div class="row article">
         <div class="hidden-xs col-sm-3 vertical-align">
             <img class="logo-accueil" src="./images/qui.jpg" alt="Qui suis-je"/>
