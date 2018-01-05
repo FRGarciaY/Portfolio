@@ -6,17 +6,17 @@
             <p>j'ai créé des <a href="https://www.google.fr/alerts" class="GoogleAlert aVeille" title="Lien pour l'ajout d'alerte Google" target="_blank">alertes&nbspgoogle</a> sur les domaines Science/High-Tech et Google</p>
         </li>
         <li>
-            <p>Je reçois la newletter hebdomadaire du club des professionnels de l'informatique publiée par Developpez.com</p>
+            <p>Je reçois la newsletter hebdomadaire du club des professionnels de l'informatique publiée par Developpez.com</p>
         </li>
         <li>
-            <p>j'ai également un compte <a href="https://flipboard.com/" class="Flipboard aVeille" title="Lien vers le site flipboard.com" target="_blank">Flipboard</a> qui regroupe les articles concernant la Cripto-monnaie ainsi que les technologies</p>
+            <p>j'ai également un compte <a href="https://flipboard.com/" class="Flipboard aVeille" title="Lien vers le site flipboard.com" target="_blank">Flipboard</a> qui regroupe les articles concernant la Cripto-monnaie ainsi que les nouvelles technologies</p>
         </li>
     </ul>
     <br>
     <p>Mon intérêt se porte en ce moment sur plusieurs sujets :</p>
     <ul>
         <li>
-            <button id='btVeille1'>La Cripto-monnaie et plus particulierement l'Ethereum</button>
+            <button id='btVeille1'>La Crypto-monnaie et plus particulierement l'Ethereum</button>
             <div>
                 <p>Les crypto-monnaies sont des monnaies alternatives qui n'ont de cours légal dans aucun pays. Tout le monde ou presque a déjà entendu parlé du Bitcoin, créé en 2009 par Satoshi Nakamoto.
                     Les transactions de la Cripto-monnaie sont vérifiées grâce à un système qui se base sur des preuves de calcul, engendrant une rémunération des mineurs(qui réalisent les calculs).</p>
