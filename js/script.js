@@ -3,7 +3,7 @@
 //
 var tempsSlide = 800;
 var tempsAttenteSlide = 800;
-var DelaiChangementImages =1500;
+var DelaiChangementImages =2000;
 // Images compétences techniques developpement
 var nbImageDev = 8;
 var indexImageDevPrecedent = 8;
