@@ -1,7 +1,7 @@
-<section id="realisation"><!-- #realisation -->
+<section id="realisation" class="policeSpecial2"><!-- #realisation -->
     <h2 class="text-center policeSpecial souligne">Réalisations personnelles</h2>
     <br>
-    <a href="telechargement/tableau_synthèse.pdf" target="_blank"><span><img id="pdf" src="images/pdf_icon.png" alt=""/></span>Télécharger le tableau de synthèse</a>
+    <a href="telechargement/tableau_synthese.pdf" target="_blank"><span><img id="pdf" src="images/pdf_icon.png" alt=""/></span>Télécharger le tableau de synthèse</a>
     <div class="row" id="sitePortfolio"><!-- #sitePortfolio -->
         <h2 class="text-center policeSpecial">Portfolio</h2>
         <div class="col-xs-12 col-sm-6 policeSpecial2 padding15">
@@ -118,27 +118,5 @@
             </div>
         </div>
     </div><!-- Fin #GSB -->
-    
-    <div class="row" id="ApplicationCalculatrice"><!-- #ApplicationCalculatrice -->
-        <div class="col-xs-12 col-sm-6 policeSpecial2 padding15">
-            <h2 class="text-center policeSpecial">Calculatrice</h2>
-            <br>
-            <p>Ce projet, réalisé en langage C#, est une application Windows Forms.</p>
-            <p>Les fonctionnalités sont celle d'une calculatrice standard.</p>
-            <p>L'application est composée de deux formulaires : la calculatrice et une fenêtre "a propos".</p>
-            <br>
-            <br>
-            <p>
-                <a href="telechargement/code_calculatrice.pdf" target="_blank"><span><img id="pdf" src="images/pdf_icon.png" alt=""/></span>Télécharger le code</a>
-                <br>
-                <a href="telechargement/Calculatrice.zip" target="_blank"><span><img id="pdf" src="images/exe.png" alt=""/></span>Télécharger l'application (zip)</a>
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 padding15">
-            <div class="padding15 text-center">
-                <img class="padding15" id="imgCalculatrice" src="images/calculatrice.png" alt=""/>
-            </div>
-        </div>
-    </div><!-- Fin #ApplicationCalculatrice -->
     
 </section><!-- Fin #realisation -->
